@@ -1,3 +1,6 @@
+.venv
+__pycache__
+.vscode
 MATLAB/pulseDetector_ref.m
 HLS/origin/proj_pulseDetector/
 HLS/origin/prompt.md
