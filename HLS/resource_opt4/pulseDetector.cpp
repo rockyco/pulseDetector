@@ -18,6 +18,10 @@ struct config1 : hls::ip_fir::params_t {
     static const unsigned num_coeffs = COEFF_NUM;
     static const unsigned coeff_sets = COEFF_SETS;
     static const unsigned quantization = 1;
+    static const unsigned rate_specification = 0;
+    static const unsigned hardware_oversampling_rate = 1;
+    static const unsigned sample_period = SAMPLE_PERIOD;
+    static const unsigned sample_frequency = SAMPLE_FREQUENCY;
 };
 const double config1::coeff_vec[FILTER_LENGTH] = {
 #include "coeff1.txt"
@@ -38,6 +42,10 @@ struct config2 : hls::ip_fir::params_t {
     static const unsigned num_coeffs = COEFF_NUM;
     static const unsigned coeff_sets = COEFF_SETS;
     static const unsigned quantization = 1;
+    static const unsigned rate_specification = 0;
+    static const unsigned hardware_oversampling_rate = 1;
+    static const unsigned sample_period = SAMPLE_PERIOD;
+    static const unsigned sample_frequency = SAMPLE_FREQUENCY;
 };
 const double config2::coeff_vec[FILTER_LENGTH] = {
 #include "coeff2.txt"
@@ -58,6 +66,10 @@ struct config3 : hls::ip_fir::params_t {
     static const unsigned num_coeffs = COEFF_NUM;
     static const unsigned coeff_sets = COEFF_SETS;
     static const unsigned quantization = 1;
+    static const unsigned rate_specification = 0;
+    static const unsigned hardware_oversampling_rate = 1;
+    static const unsigned sample_period = SAMPLE_PERIOD;
+    static const unsigned sample_frequency = SAMPLE_FREQUENCY;
 };
 const double config3::coeff_vec[FILTER_LENGTH] = {
 #include "coeff3.txt"

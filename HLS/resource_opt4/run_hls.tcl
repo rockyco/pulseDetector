@@ -9,7 +9,7 @@ set VIVADO_IMPL 1
 set SOLN "solution1"
 
 # setup hardware
-set CLKP 300MHz
+set CLKP 256MHz
 set XPART xc7z035-fbg676-1
 set_clock_uncertainty 12.5%
 

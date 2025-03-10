@@ -42,6 +42,8 @@ const unsigned COEFF_SETS = 1;
 const unsigned INPUT_LENGTH = SIGNAL_LENGTH;
 const unsigned OUTPUT_LENGTH = SIGNAL_LENGTH;
 const unsigned CHAN_NUM = 1;
+const unsigned SAMPLE_PERIOD = 4;
+const unsigned SAMPLE_FREQUENCY = 64;
 typedef ap_fixed<INPUT_WIDTH, INPUT_WIDTH - INPUT_FRACTIONAL_BITS> s_data_t;
 typedef ap_fixed<OUTPUT_WIDTH, OUTPUT_WIDTH - OUTPUT_FRACTIONAL_BITS> m_data_t;
 typedef ap_uint<8> config_t;
