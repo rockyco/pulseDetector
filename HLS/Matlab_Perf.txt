@@ -1,0 +1,7 @@
+LUT: 407
+FF: 4528
+DSP: 194
+BRAM: 0
+URAM: 0
+
+Timing: 3.769 ns

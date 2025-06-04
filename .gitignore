@@ -1,0 +1,14 @@
+.venv/
+HLS/__pycache__/
+.vscode/
+MATLAB/pulseDetector_ref.m
+HLS/origin/proj_pulseDetector/
+HLS/origin/prompt.md
+HLS/resource_opt1/proj_pulseDetector/
+HLS/resource_opt2/proj_pulseDetector/
+HLS/resource_opt3/proj_pulseDetector/
+HLS/resource_opt4/proj_pulseDetector/
+HLS/compareReports.py
+HLS/readReport.py
+# HLS/Matlab_Perf.txt
+WriteIntro.md
